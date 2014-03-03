@@ -380,7 +380,7 @@ package ws.tink.spark.controls
 		/**
 		 * @inherit
 		 */
-		override mx_internal function setSelectedIndex( value:int, dispatchChangeEvent:Boolean = false, changeCaret:Boolean = true ):void
+		override public function setSelectedIndex( value:int, dispatchChangeEvent:Boolean = false, changeCaret:Boolean = true ):void
 		{
 			if( value == selectedIndex || !indexSelectable( value ) ) return;
 

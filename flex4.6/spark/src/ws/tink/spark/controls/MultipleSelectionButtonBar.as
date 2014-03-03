@@ -218,7 +218,7 @@ package ws.tink.spark.controls
 		 *  @private
 		 *  Overriden to stop the default ButtonBase behaviour. 
 		 */
-		override mx_internal function setSelectedIndex( value:int, dispatchChangeEvent:Boolean = false, changeCaret:Boolean = true ):void
+		override public function setSelectedIndex( value:int, dispatchChangeEvent:Boolean = false, changeCaret:Boolean = true ):void
 		{
 			// Overriden to stop the default ButtonBase behaviour
 		}
