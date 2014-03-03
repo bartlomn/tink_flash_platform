@@ -77,18 +77,13 @@
    </dependencies>
 
    <build>
-      <sourceDirectory>flex4.6/spark/src</sourceDirectory>
+      <sourceDirectory>src/main/flex</sourceDirectory>
       <plugins>
          <plugin>
             <groupId>net.flexmojos.oss</groupId>
             <artifactId>flexmojos-maven-plugin</artifactId>
             <version>7.0.0-SNAPSHOT</version>
             <extensions>true</extensions>
-            <configuration>
-               <includeSources>
-                  <source>as3_fp10/src</source>
-               </includeSources>
-            </configuration>
             <dependencies>
                <dependency>
                   <groupId>org.apache.flex</groupId>
